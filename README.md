@@ -121,12 +121,11 @@ HospitalSystem/
 ## 💡 Future Enhancements
 
 *   [ ] Graphical User Interface (e.g., Qt, ImGui)
-*   [ ] Database integration (e.g., SQLite)
 *   [ ] User authentication and roles (Admin, Doctor, Staff)
 *   [ ] Advanced search and filtering capabilities
 *   [ ] Comprehensive logging
 *   [ ] Refactor into header/source files for better modularity
-*   [ ] Integration with a dedicated unit testing framework (Google Test)
+
 
 ## 👤 Author
 
