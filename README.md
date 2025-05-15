@@ -8,7 +8,7 @@
   <img src="https://img.shields.io/badge/Platform-Cross--Platform-lightgrey.svg?style=for-the-badge" alt="Platform: Cross-Platform">
   <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge" alt="License: MIT"></a>
   <!-- Example Build Status Badge (replace with actual if you set up CI) -->
-  <a href="https://github.com/AayushBadola/HospitalSystem/actions"><img src="https://img.shields.io/github/actions/workflow/status/AayushBadola/HospitalSystem/cpp-build.yml?branch=main&style=for-the-badge&logo=githubactions&label=Build" alt="Build Status"></a>
+
   <!-- If you set up a C++ build workflow in GitHub Actions, this badge can show its status -->
 </p>
 
