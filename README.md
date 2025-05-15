@@ -48,11 +48,7 @@ The `Hospital` class acts as the central controller, managing collections of:
 *   `Appointment` objects
 
 Each entity supports serialization/deserialization for CSV persistence. The `Doctor` class uses `std::set` for efficient O(log N) lookup of available days.
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/AayushBadola/HospitalSystem/main/.assets/architecture_diagram.png" alt="System Architecture Diagram" width="600"/>
-  <!-- Note: You'll need to create and add an architecture_diagram.png to a .assets folder -->
-</p>
+ 
 
 ## 🚀 Getting Started
 
@@ -101,38 +97,20 @@ cl /std:c++17 /EHsc hospital_system.cpp /Fe:hospital_management.exe
 Execute the compiled program:
 
 ```bash
-./hospital_management
+./system  #for Using in VScode etc
 ```
 On Windows:
 ```bash
-.\hospital_management.exe
+.\system.exe
 ```
 This will launch the interactive console menu.
-
-### 🧪 Testing (Optional)
-
-A test suite (`hospital_system_tests.cpp`) is available for verifying functionality.
-
-1.  **Temporarily modify `hospital_system.cpp`:** Comment out or rename its `main()` function.
-2.  **Compile tests:**
-    ```bash
-    # Example with GCC/G++
-    g++ -std=c++17 hospital_system.cpp hospital_system_tests.cpp -o hospital_tests
-    ```
-3.  **Run tests:**
-    ```bash
-    ./hospital_tests
-    ```
 
 ## 📁 File Structure
 
 ```
 HospitalSystem/
-├── .assets/                  # For images like icons, diagrams (you need to create this)
-│   ├── hospital_icon.png
-│   └── architecture_diagram.png
-├── hospital_system.cpp       # Main application source code
-├── hospital_system_tests.cpp # Optional test suite
+|
+├── system.cpp       # Main application source code
 ├── patients.csv              # Auto-generated patient data
 ├── doctors.csv               # Auto-generated doctor data
 ├── departments.csv           # Auto-generated department data
